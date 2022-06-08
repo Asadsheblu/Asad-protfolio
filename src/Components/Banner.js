@@ -7,10 +7,14 @@ import github from "../assest/icons8-github-48.png"
 import Fade from 'react-reveal/Fade';
 
 const Banner = () => {
+   
     return (
+        <div>
+       
         <div className='container-fluid'>
+            
             <div className="row">
-                
+            
                 <div className="col-md-6 text-center p-5 mt-5">
                 <Fade left>
                     <h5>Hi, I am</h5>
@@ -47,6 +51,7 @@ const Banner = () => {
             </Fade>
                 </div>
             </div>
+        </div>
         </div>
     );
 };

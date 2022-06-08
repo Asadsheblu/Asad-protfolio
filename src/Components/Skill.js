@@ -4,7 +4,7 @@ import ProgressBar from "@ramonak/react-progress-bar";
 const Skill = () => {
     return (
         <div className='container'>
-            <h2 className='text-center'>My <span className='text-primary'>Skill</span></h2>
+            <h2 className='text-center pt-5 pb-5'>My <span className='text-primary'>Skill</span></h2>
             <div className="row p-3">
                 <div className="col-md-4"><h6>HTML</h6>
                 <ProgressBar completed={90} /></div>
