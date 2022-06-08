@@ -3,6 +3,8 @@ import About from './About';
 import Banner from './Banner';
 
 import Header from './Header';
+import Project from './Project';
+import Skill from './Skill';
 
 const Home = () => {
     return (
@@ -12,6 +14,8 @@ const Home = () => {
             <Header></Header>
             <Banner />
             <About></About>
+            <Skill></Skill>
+            <Project />
             
             
         </div>
