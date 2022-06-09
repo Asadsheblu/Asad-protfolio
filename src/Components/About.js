@@ -3,7 +3,7 @@ import me from "../assest/120528910_1201585603549283_2012264543360913145_n.jpg"
 import Fade from 'react-reveal/Fade';
 const About = () => {
     return (
-        <div className='container'>
+        <div id='about' className='container'>
             <h2 className='text-center'>About <span className="text-primary">Me</span></h2>
             <div className="row">
                 <div className="col-md-4 p-5">

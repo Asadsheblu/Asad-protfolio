@@ -1,5 +1,5 @@
 import React from 'react';
-import contact from "../assest/download.jpg"
+import contact from "../assest/200.gif"
 import emailjs from '@emailjs/browser';
 const Contact = () => {
     const sendEmail=(e)=>{

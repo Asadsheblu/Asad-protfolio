@@ -9,8 +9,8 @@ import github from "../assest/icons8-github-48.png"
 import browser from "../assest/globe.png"
 const Project = () => {
     return (
-        <div className="container p-5">
-              <h2 className='text-center pt-5 pb-5'>My Recent <span className="text-primary">Project</span></h2>
+        <div id='project' className="container p-5 text-dark ">
+              <h2 className='text-center pt-5 pb-5 text-white'>My Recent <span className="text-primary">Project</span></h2>
         <div className="row row-cols-1 row-cols-md-3 g-4">
   <div className="col">
     <div className="card shadow h-100 p-3">
