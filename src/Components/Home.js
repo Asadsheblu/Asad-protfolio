@@ -5,6 +5,7 @@ import Contact from './Contact';
 import Footer from './Footer';
 
 import Header from './Header';
+
 import Particlesjs from './Particlesjs';
 import Project from './Project';
 import Skill from './Skill';
@@ -12,6 +13,8 @@ import Skill from './Skill';
 const Home = () => {
     return (
        <>
+       
+     
             <Particlesjs/>
             <div className='text-white'>
             <Header></Header>

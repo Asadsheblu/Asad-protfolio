@@ -20,7 +20,7 @@ const Banner = () => {
                     <h5>Hi, I am</h5>
                     <h1 className='text-primary fw-bold'>ASADUZ ZAMAN <br /> SHEBLU</h1>
                     <h3>I am 
-                    <TypeAnimation
+                    <TypeAnimation 
             cursor={true}
             sequence={[
               'Frontend Developer.',
@@ -28,7 +28,7 @@ const Banner = () => {
               'Programmer.',
               3000,
             ]}
-            wrapper="span"
+            wrapper="h3"
             repeat={Infinity}
            />
                     </h3>

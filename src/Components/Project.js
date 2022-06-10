@@ -14,7 +14,7 @@ import tailwind from "../assest/tailwind-css-svgrepo-com.svg"
 import js from "../assest/icons8-javascript-144.png"
 import rect from "../assest/icons8-react-120.png"
 import express from "../assest/expressjs-icon.png"
-
+import mobile from "../assest/mobile.png"
 import mongo from "../assest/icons8-mongodb-144.png"
 import firebase from "../assest/icons8-firebase-144.png"
 import stripe from "../assest/icons8-stripe-144.png"
@@ -133,20 +133,21 @@ const Project = () => {
   <div className="col">
     <div className="card h-100 p-3 shadow">
     <Zoom>
-    <img src={influencer} className="card-img-top" alt="..."/>
+    <img src={mobile} className="card-img-top" alt="..."/>
     </Zoom>
       <div className="card-body">
-        <h5 className="text-center">Gear Shop</h5>
+        <h5 className="text-center">Mobile Finder</h5>
         <div className="d-flex  ms-2">
           <h6 className='me-2'>Technology:</h6>
        <span className='me-2'> <img width={20} height={20} src={html} alt="" /></span>
        <span className='me-2'> <img width={20} height={20} src={css} alt="" /></span>
+       <span className='me-2'> <img width={20} height={20} src={js} alt="" /></span>
        
        
         </div>
-        <p className="card-text">A  responsive Influencer Gear Shop App. Influencer can Show  Products</p>
-       <a href=""> <button className='ps-2 pe-2 rounded btn btn-outline-danger '><img width={24} src={github} alt="" />Github</button></a>
-       <a href="https://asadsheblu.github.io/influencer-gear/">  <button className='ps-2 pe-2  rounded btn btn-outline-info ms-3'><img width={24} src={browser} alt="" /> Live Site</button></a>
+        <p className="card-text">A  responsive Mobile Finder  App. vistor serach any kinds of mobile</p>
+       <a href="https://github.com/Asadsheblu/Phone-hunter-fake-Api-project"> <button className='ps-2 pe-2 rounded btn btn-outline-danger '><img width={24} src={github} alt="" />Github</button></a>
+       <a href="https://phone-hunter-asad.netlify.app/">  <button className='ps-2 pe-2  rounded btn btn-outline-info ms-3'><img width={24} src={browser} alt="" /> Live Site</button></a>
       </div>
     </div>
   </div>

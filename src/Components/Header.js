@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Howlers from './Howlers';
 const Header = () => {
     return (
         <nav className="navbar fixed navbar-expand-lg navbar-light bg-light">
@@ -25,6 +25,7 @@ const Header = () => {
         <li className="nav-item">
           <a className="nav-link" href="#">Contact</a>
         </li>
+        <Howlers/>
       </ul>
       <button className='btn btn-outline-info p-2 rounded-pill me-5'><a className='text-decoration-none fw-bold' href="https://drive.google.com/file/d/1tO5I85ecVLLaIKxvrAsfxnzQdCyAkDJd/view?usp=sharing">Download Resume</a></button>
       
