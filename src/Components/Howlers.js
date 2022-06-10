@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactHowler from 'react-howler'
-import song from "../assest/Beautiful-Piano.mp3"
+import intro from "../assest/SHEBLU051.mp3"
 import mute from "../assest/icons8-mute-50.png"
 import sound from "../assest/icons8-sound-50.png"
 class OnlyPlayPausebutton extends React.Component {
@@ -30,7 +30,7 @@ class OnlyPlayPausebutton extends React.Component {
     return (
       <div>
         <ReactHowler
-          src={song}
+          src={intro}
           playing={this.state.playing}
         />
         <button onClick={this.handlePlay}><img width={16} src={sound} alt="" /></button>

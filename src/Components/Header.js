@@ -1,10 +1,11 @@
 import React from 'react';
 import Howlers from './Howlers';
+import asad from "../assest/Shibu_passport_size__1_-removebg-preview (1).png"
 const Header = () => {
     return (
         <nav className="navbar fixed navbar-expand-lg navbar-light bg-light">
   <div className="container-fluid">
-    <a className="navbar-brand" href="#">ASAD</a>
+    <a className="navbar-brand fs-4" href="#"><img width={40} src={asad} alt="" />A <span className='fs-6'>S A D</span></a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
